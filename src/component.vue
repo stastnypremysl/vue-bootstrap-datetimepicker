@@ -1,6 +1,6 @@
 <template>
   <div class="datetimepicker-inline" v-if="config.inline"></div>
-  <input type="text" class="form-control" v-else>
+  <input type="text" class="form-control" @click="onClick" v-else>
 </template>
 
 <script>
@@ -91,6 +91,15 @@
       onChange(event) {
         let formattedDate = event.date ? event.date.format(this.dp.format()) : null;
         this.$emit('input', formattedDate);
+      },
+
+      /**
+       * Passes the click event to the component
+       *
+       * @param event
+       */
+      onClick(event) {
+          this.$emit('click', event)
       },
 
       /**

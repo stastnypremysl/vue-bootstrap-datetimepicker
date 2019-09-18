@@ -1,6 +1,6 @@
 {
-  "name": "vue-bootstrap-datetimepicker",
-  "version": "5.0.1",
+  "name": "@shopmacher/vue-bootstrap-datetimepicker",
+  "version": "0.0.1",
   "description": "Vue.js date time picker component for bootstrap 4",
   "main": "dist/vue-bootstrap-datetimepicker.js",
   "unpkg": "dist/vue-bootstrap-datetimepicker.min.js",
@@ -35,7 +35,8 @@
     "prepublishOnly": "npm run test && npm run build"
   },
   "dependencies": {
-    "pc-bootstrap4-datetimepicker": "^4.17.50"
+    "pc-bootstrap4-datetimepicker": "^4.17.50",
+    "uglifyjs-webpack-plugin": "^2.2.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
