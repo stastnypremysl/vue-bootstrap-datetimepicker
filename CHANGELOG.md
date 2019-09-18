@@ -1,5 +1,12 @@
 # Changelog
 
+#Shopmacher
+
+## [0.0.1]
+*Add Click Event
+
+#Basic Version
+
 ## [5.0.1](https://github.com/ankurk91/vue-bootstrap-datetimepicker/compare/5.0.0...5.0.1)
 * Final version
 

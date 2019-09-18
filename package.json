@@ -1,6 +1,6 @@
 {
   "name": "@shopmacher/vue-bootstrap-datetimepicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue.js date time picker component for bootstrap 4",
   "main": "dist/vue-bootstrap-datetimepicker.js",
   "unpkg": "dist/vue-bootstrap-datetimepicker.min.js",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ankurk91/vue-bootstrap-datetimepicker.git"
+    "url": "https://github.com/SHOPMACHER/vue-bootstrap-datetimepicker"
   },
   "keywords": [
     "vue",
@@ -23,9 +23,9 @@
   "author": "ankurk91",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ankurk91/vue-bootstrap-datetimepicker/issues"
+    "url": "https://github.com/SHOPMACHER/vue-bootstrap-datetimepicker/issues"
   },
-  "homepage": "https://github.com/ankurk91/vue-bootstrap-datetimepicker",
+  "homepage": "https://github.com/SHOPMACHER/vue-bootstrap-datetimepicker",
   "scripts": {
     "test": "jest",
     "test:watch": "npm run test -- --watch --onlyChanged --notify",
@@ -85,5 +85,8 @@
     },
     "collectCoverage": true,
     "testURL": "http://localhost"
+  },
+  "publishOptions": {
+    "access": "public"
   }
 }
